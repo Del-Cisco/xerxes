@@ -49,8 +49,8 @@ void broke(int s) {
 	// do nothing
 }
 
-#define CONNECTIONS 80
-#define THREADS 100
+#define CONNECTIONS 15
+#define THREADS 50
 
 void attack(char *host, char *port, int id) {
 	int sockets[CONNECTIONS];
